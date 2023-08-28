@@ -1,4 +1,6 @@
-const { createApp } = require('vue');
-import App from "./App.vue";
+import '@ironsource/shared-ui/styles/levelplay/fonts.css';
 
-createApp(App).mount("#app");
+const { createApp } = require('vue');
+import App from './App.vue';
+
+createApp(App).mount('#app');
